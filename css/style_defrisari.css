@@ -1,0 +1,167 @@
+body{
+	margin:0;
+	padding:0;
+	background-color:#d6f5d6;
+	background-size:cover;
+	font-family:sans-serif;
+	height: 100%;
+	
+	
+}
+body, html {
+  height: 100%;
+}
+.navbar {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  
+  
+}
+
+
+.navbar a {
+  float: right;
+  font-size: 20px;
+  color: #00ccff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+
+.dropdown .dropbtn {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: #00ccff;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0; 
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: blue;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: grey;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+h1{
+
+ display: block;
+  font-size: 2em;
+  text-decoration:underline ;
+  color:black;
+  text-align:center;
+  margin-top: 10%;
+  margin-bottom: 0.67em;
+  margin-left: 35%;
+  margin-right: 30%;
+  font-weight: bold;
+}
+img{
+	
+	height:50vh;
+	width:50vh;
+	position:relative;
+	margin-top:10%;
+	 margin-bottom: 0.67em;
+  margin-left: 10%;
+  margin-right:10%;
+ 
+}
+p{
+	
+  display: block;
+  font-size:20px;
+  
+  color:black;
+  
+  margin-top: 10%;
+ margin-left:5%;
+   text-align:justify;
+  margin-right: 10%;
+  font-weight: bold;
+   font-family:cursive;
+	 
+}
+h2{display: block;
+  font-size: 2em;
+  text-decoration:underline ;
+  color:red;
+  text-align:center;
+  margin-top: 10%;
+  margin-bottom: 0.67em;
+  margin-left: 20%;
+  margin-right: 30%;
+  font-weight: bold;
+  font-family:cursive;
+}
+#btn{
+	font-size:30px;
+	margin-left: 40%;
+  margin-right: 30%;
+  font-weight: bold;
+   margin-top: 5%;
+   margin-bottom: 0.67em;
+   font-family:fantasy;
+   border-radius: 2px;
+    border: 2px solid #4CAF50;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	width: 250px;
+   
+}
+
+@media (max-width:600px) {
+	
+	p{
+		font-size:2rem;
+	}
+}
+@media (max-width: 800px) {
+	
+	p{
+		font-size:3 rem;
+		line-height:1.5;
+	}
+	
+	
+}

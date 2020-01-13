@@ -1,0 +1,221 @@
+body{
+	background-color:green;
+	margin: 0;
+	
+}
+a {
+	text-decoration: none;
+	text-align: center;
+}
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  
+  
+}
+
+
+.navbar a {
+  float: right;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+
+.dropdown .dropbtn {
+  font-size: 25px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0; 
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: blue;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: grey;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.petshop{
+	position: absolute;
+left: 50%;
+margin-top:10%;
+}
+#cart{
+    width: 50px;  
+}
+* {box-sizing: border-box}
+
+.row {
+    margin: 50px -0px;
+  }
+  
+ /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 7px;
+  }
+  
+   
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+.Img {
+  width: 100%;
+}
+
+.petshop{
+  right: 0;
+  position: relative;
+  display: inline-block;
+}
+
+#shopping{
+  position: absolute;
+  overflow: hidden;
+  width: 500px;
+  z-index: 200;
+  height: auto;
+  display: none;
+  list-style-type: none;
+  margin-left: 0px;
+  background-color: black;
+  color:white;
+}
+
+.produs{
+  width: 500px;
+  text-align: left;
+}
+
+
+.widgetImg{
+  width: 40px;
+  height: auto;
+}
+
+#shopping div{
+  border-bottom: 1.5px solid white;
+}
+
+.cls{
+  width: 100%;
+  margin: auto;
+}
+
+.descriere{
+  height: 86px;
+}
+
+.remove{
+  background-color: black;
+  font-size: 20px;
+  float: right;
+  color: white;
+  border: 1px solid black;
+}
+
+.example input[type=text] {
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  border: 1px solid grey;
+  float: right;
+  width: 200px;
+  background: #f1f1f1;
+  position: relative;
+ 
+}
+
+.example .search {
+  float: right;
+  width: 3%;
+  padding: 10px;
+  background: white;
+  color: black;
+  font-size: 16px;
+  position: relative;
+  border: 1px solid grey;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0px;
+
+}
+
+#myUL li h3 {
+  border: 1px solid #ddd;
+  margin-top: -1px; 
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li h3:hover:not(.header) {
+  background-color: #eee;
+}
